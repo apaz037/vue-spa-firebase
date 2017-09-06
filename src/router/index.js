@@ -8,6 +8,7 @@ const routerOptions = [
   { path: '/home', component: 'Home' }
 ]
 
+// Route Lazy Loading
 const routes = routerOptions.map(route => {
   return {
     path: route.path,
@@ -18,6 +19,7 @@ const routes = routerOptions.map(route => {
 Vue.use(Router)
 
 export default new Router({
+  // for html 5 history mode
   mode: 'history',
   routes
 })
