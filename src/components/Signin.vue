@@ -22,7 +22,7 @@
             typ="password"
             required></v-text-field>
           </v-flex>
-          <v-flex>
+          <v-flex class="text-xs-center" mt-5>
             <v-btn primary type="submit">Sign In</v-btn>
           </v-flex>
         </v-layout>
